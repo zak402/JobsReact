@@ -1,0 +1,62 @@
+/*------------ search -----------------*/
+.Search
+{
+    background: url("/img/header.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding:100px 70px;
+    text-align:center;
+}
+.Search form
+{
+    padding:10px;
+    background: #ffffff;
+    border-radius:5px;
+    box-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -2px rgba(0,0,0,.05)!important;
+}
+.Search h1{
+    color:#fff;
+    font-size:45px;
+    font-weight:bold;
+    margin-bottom:10px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.Search p{
+    color:#fff;
+    margin-bottom:30px;
+    font-size:12px;
+}
+.Search button
+{
+    background:#6d48e5;
+    color:#fff;
+    font-size:13px;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -2px rgba(0,0,0,.05)!important;
+}
+.Search select,
+.Search button
+{
+    border:none;
+    box-shadow:none;
+    height:50px;
+    line-height:35px;
+}
+@media(max-width:768px){
+    .Search select{
+        margin-bottom:20px;
+    }
+    .Search{
+        padding:70px 50px;
+    }
+}
+@media(max-width:552px){
+    .Search{
+        padding:70px 20px;
+    }
+    .Search h1{
+     color:#fff;
+     font-size:25px;
+    }
+}
+/*------------------- end search ---------------*/

@@ -1,0 +1,109 @@
+.job-detail{
+    padding:30px;
+    background:#fdfdfd;
+}
+.job-detail .detail-content
+{
+    background:#fff;
+    padding:50px 40px 0px 40px;
+    box-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06)!important;
+}
+.job-detail .detail-content .detail-title{
+    margin-left:10px;
+    float: left;
+}
+.job-detail .detail-content img{
+    width:50px;
+    height:50px;
+    border-radius:5px;
+    margin-bottom:20px;
+    float: left;
+}
+.postule_mobile{
+    display:none;
+}
+.job-detail .detail-content .postule button{
+    float:right;
+    background:#6d48e5;
+    color:#fff;
+    padding:10px;
+    display:block;
+    text-align:center;
+    width:100px;
+    height:40px;
+    line-height:20px;
+    box-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -1px rgba(0,0,0,.06)!important;
+}
+.job-detail .detail-content .postule button:hover{
+    color:#6d48e5;
+    background:#fff;
+}
+.job-detail .detail-content .title{
+    font-size:16px;
+    font-weight: bold;
+    color:#000;
+}
+.job-detail .detail-content .price{
+    font-size: 13px;
+    font-weight: 700;
+    color: #333;
+}
+.job-detail .detail-content .ville {
+    font-size: 12px;
+    color: #888;
+    margin-top:10px;
+}
+.job-detail .detail-content .skills:not(:first-child){
+    margin-left:10px;
+    margin-bottom:40px;
+}
+.job-detail .detail-content .skills:not(:first-child){
+    display: inline-block;
+    color:#6d48e5;
+    background:#ece5ff;
+    border-radius:5px;
+    padding:5px 10px;
+    font-size:11px;
+}
+
+.job-detail .detail-content p{
+    color:#555;
+    font-size:13px;
+    line-height:2em;
+    margin-top:20px;
+}
+
+@media(max-width:992px){
+
+    .job-detail .detail-content .postule button{
+        display:none;
+    }
+    .job-detail .detail-content
+    {
+        padding:50px 40px 40px 40px;
+    }
+
+    .postule_mobile{
+     display:block;
+     background:#6d48e5;
+     color:#fff;
+     width:100%;
+     padding:10px;
+     text-align:center;
+     height:40px;
+     line-height:20px;
+     box-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -1px rgba(0,0,0,.06)!important;
+    }
+    .postule_mobile:hover{
+     background:#fff;
+     color:#6d48e5;   
+    }
+}
+@media(max-width:552px){
+    .job-detail{
+        padding:30px 15px;
+    }
+    .job-detail .detail-content{
+        padding: 50px 15px 20px 30px;
+    }
+}
