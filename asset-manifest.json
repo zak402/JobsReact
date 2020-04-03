@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/zak402/JobsReact/static/css/main.62a05d35.chunk.css",
+    "main.js": "/zak402/JobsReact/static/js/main.08b1e5bc.chunk.js",
+    "main.js.map": "/zak402/JobsReact/static/js/main.08b1e5bc.chunk.js.map",
+    "runtime-main.js": "/zak402/JobsReact/static/js/runtime-main.df602cf6.js",
+    "runtime-main.js.map": "/zak402/JobsReact/static/js/runtime-main.df602cf6.js.map",
+    "static/js/2.4c23b27c.chunk.js": "/zak402/JobsReact/static/js/2.4c23b27c.chunk.js",
+    "static/js/2.4c23b27c.chunk.js.map": "/zak402/JobsReact/static/js/2.4c23b27c.chunk.js.map",
+    "index.html": "/zak402/JobsReact/index.html",
+    "precache-manifest.790b01f3cbf5f1b8e1f58f0246abdc2a.js": "/zak402/JobsReact/precache-manifest.790b01f3cbf5f1b8e1f58f0246abdc2a.js",
+    "service-worker.js": "/zak402/JobsReact/service-worker.js",
+    "static/css/main.62a05d35.chunk.css.map": "/zak402/JobsReact/static/css/main.62a05d35.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.df602cf6.js",
+    "static/js/2.4c23b27c.chunk.js",
+    "static/css/main.62a05d35.chunk.css",
+    "static/js/main.08b1e5bc.chunk.js"
+  ]
+}
